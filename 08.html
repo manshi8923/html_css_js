@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--conditional operations-->
+<body>
+    <script>
+        let a=prompt("Hey whats your age?");
+        //way of convert a string to a number in javascript
+        a=Number.parseInt(a);
+        if(a==12){
+            console.log("Nice");
+        }
+        else if(a>12){
+            console.log("great!");
+        }
+        else{
+            console.log("fine");
+        }
+        //explore switch 
+        const exp=prompt("tell");
+        switch (exp){
+            case "manshi":
+                console.log(12);
+                break;
+            case "ajay":
+                console.log(123);
+                break;
+            default:
+                console.log("Bhaad mein jao");
+        }
+        //ternery operators
+        console.log((exp>12)?"manshi":"ajay");
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--Loops in js
+for loop iterate over a given condition
+for in loop = iterate using the key of an object
+for of loop = iterate using the value of an object
+while loop 
+do while
+-->
+<body>
+   <script>
+    for(let i=1;i<=20;i++){
+        console.log(i);
+    }
+    //for in loop 
+    let obj={
+        harry:90,
+        shubh:45,
+        mas:23
+    }
+    for(let a in obj){
+        console.log(a);//key
+        console.log(obj[a]);//value
+    }
+    //for of loop
+    obj="manshi";
+    for(let a of obj){
+        console.log(a);
+    }
+   // while loop
+    let p=1;
+    while(p<10){
+        console.log(p);
+        p++;
+    }
+    p=1;
+    do{
+        console.log("yeah");
+        p--;
+    }while(p!=0);
+   </script> 
+</body>
+</html>
